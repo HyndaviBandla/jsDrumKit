@@ -1,0 +1,35 @@
+<!-- the game is: this is actually a mind game where the sequence need to be
+remembered.initially u need  to press any key on the keyboard to start the
+game and then randomly it will blink one botton every time in every level.in 2nd
+level u need to remember the button shown in level 1 and btn shown now in level 2 means in 2nd leval it will press 1 btn and u need to press 2 btn's of  one btn of level 1 and one btn of level 2, if u pressed in correct order then u will be taken to 3rd level(next level)-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 id="level-title">Press A Key to Start</h1>
+    <div class="container">
+      <div lass="row">
+        <div type="button" id="green" class="btn green"></div>
+
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="game.js" charset="utf-8"></script>
+  </body>
+</html>
